@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
@@ -10,14 +11,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
 
-    <button id="cat-button">Magical Button</button>
+    <div id="buttons-view">
+        <form id="movie-form">
+            <label for="movie-input">Animal</label>
+            <input type="text" id="movie-input"><br>
 
-    <div id="images"></div>
+            <!-- Button triggers new movie to be added -->
+            <input id="cat-button" type="submit" value="Movie">
+        </form>
+
+        <div id="images"></div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/logic.js"></script>
-    
+
 </body>
+
 </html>
